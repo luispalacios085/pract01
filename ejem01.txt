@@ -1,1 +1,47 @@
-primer ejemplo de git 
+crear repositorio
+git init
+
+preparar archivos
+git add. 
+
+agregar commit
+git commit -m "mi comentario"
+
+agregar remoto 
+git remote add oringi urlDelServidor
+
+enviar al servidor 
+git push -u oringi nombreDelBranch
+
+clonar
+remoto
+git clone urlDelServidor
+local
+git clone C:/User/Documents/proyecto
+
+crear un branch 
+git checkout -b nombreDelBranch
+
+cambiar de branch
+git  checkout  nombreDelBranch
+
+Eliminar
+git checkout -d nombreDelBranch
+
+descargar cambios
+git pull
+
+fusionar
+git merge nombreDelBranch
+ 
+comparar branch
+git diff miBranch targetBranch
+
+en que branch estoy
+git status
+
+ver commits
+git log
+
+eliminar commits previos
+git  reset -hard oringi/master
